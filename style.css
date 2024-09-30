@@ -1,0 +1,29 @@
+h1{
+    text-align:center;
+    font-weight: bolder;
+    font-style: inherit;
+    text-decoration:underline;
+    text-shadow: 0cqmin;
+    text-decoration-line: underline; 
+    text-decoration-thickness: 7;
+    text-decoration-color: brown;
+    background-color:rgb(151, 143, 32);
+}
+h2{
+    text-align:left;
+    text-decoration:underline;
+    text-decoration-line: underline; 
+    text-decoration-thickness: 3;
+    text-decoration-color: tomato;
+    background-color: rgb(48, 216, 42);
+}
+div{
+    background-color:khaki;
+}
+hr{
+    background-color: rgb(100, 93, 0);
+    color: green;
+}
+html{
+    background-color: palegreen;
+}

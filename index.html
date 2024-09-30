@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+</head>
+<body>
+    <h1>QUIZ APPLICATION USING APTOS (QAUA) </h1>
+    <br>
+    <br>
+    <div name="guidelines" id="1">
+        <h2>IMPORTANT GUIDELINES FOR THE QUIZ</h3>
+        <ul type="disc">
+            <li>There are two sections in this quiz ie Section A and Section B. In section A you have to enter your personal details and in Section B you have to attemp the quiz.</li>
+            <br>
+            <li>There are total 5 questions in this quiz in Section B.</li>
+            <br>
+            <li>Each question has 4 choices in which a single option is the best or appropriate answer.</li>
+            <br>
+            <li>Each correct answer will lead to increase in your aptos token by a factor of 2</li>
+            <br>
+            <li>Each wrong answer will not affect your aptos coins.</li>
+            <br>
+            <li>Attempt all the answers very carefully</li>
+            <br>
+        </ul>
+    </div>
+    <hr>
+    <div class="user_details" id="2">
+        <h2>SECTION A. USER DETAILS</h3>
+        Enter your full name:<input type="text" placeholder="your full name"></input><br><br>
+        Enter your gender:<br>
+        <input type="radio" name="gender" value="Male">Male</input><br>
+        <input type="radio" name="gender" value="Female">Female</input><br><br>
+        Enter your enrollment number:<input type="text" placeholder="10 digit enrollment number"></input><br><br>
+        Enter your city:
+        <select id="cities" name="cities">
+            <option value="Gujrat">Gujrat</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Goa">Goa</option>
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Other">Other</option>
+        </select>
+        <br><br>
+    </div>
+    <hr>
+    <div>
+        <h2>SECTION B. QUIZ:</h3>
+        Q1:What is the formula for calculating distance?<br>
+        <input type="radio" name="q1" value="Speed*Time">Speed*Time</input><br>
+        <input type="radio" name="q1" value="Speed/Time">Speed/Time</input><br>
+        <input type="radio" name="q1" value="2*Speed*Time">2*Speed*Time</input><br>
+        <input type="radio" name="q1" value="Time/Speed">Time/Speed</input><br><br>
+        Q2:What is the formula for calculating Simple Interest?<br>
+        <input type="radio" name="q2" value="Principe*Rate*Time">Principe*Rate*Time</input><br>
+        <input type="radio" name="q2" value="(Rate*Time)/100">(Rate*Time)/100</input><br>
+        <input type="radio" name="q2" value="(Principe*Rate*Time)/100">(Principe*Time)/100</input><br>
+        <input type="radio" name="q2" value="(Principe*Rate*Time)/100">(Principe*Rate*Time)/100</input><br><br>
+        Q3:What is the formula for calculating Profit?<br>
+        <input type="radio" name="q3" value="Cost Price-Selling Price">Cost Price-Selling Price</input><br>
+        <input type="radio" name="q3" value="Selling Price-Cost Price">Selling Price-Cost Price</input><br>
+        <input type="radio" name="q3" value="(Cost Price -Selling Price)/Selling Price">(Cost Price -Selling Price)*100/Selling Price</input><br>
+        <input type="radio" name="q3" value="((Selling Price -Cost Price))*100/Cost Price">((Selling Price -Selling Price))*100/Cost Price</input><br><br>
+        Q4:How many quantities together form a dozen?<br>
+        <input type="radio" name="q4" value="1">1</input><br>
+        <input type="radio" name="q4" value="5">5</input><br>
+        <input type="radio" name="q4" value="12">12</input><br>
+        <input type="radio" name="q4" value="6">6</input><br><br>
+        Q5:How many grams are there in 1 Kilogram?<br>
+        <input type="radio" name="q5" value="1000">1000</input><br>
+        <input type="radio" name="q5" value="100">100</input><br>
+        <input type="radio" name="q5" value="10000">10000</input><br>
+        <input type="radio" name="q5" value="10">10</input><br><br>
+    </div>
+    <hr>
+    <input type="submit" value="submit"></input>
+    <input type="reset" value="reset"></input><br><br>
+    <a href="Leaderboard_Result.html">Leaderboard and Result</a>
+</body>
+</html>
